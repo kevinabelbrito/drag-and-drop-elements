@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentDropZone = null;
 
     function setSelectedCard(event) {
+        console.log("Event: ", event);
         selectedCard = event.target.closest('.card');
         const dropZone = document.elementFromPoint(event.changedTouches[0].clientX, event.changedTouches[0].clientY).closest('.base, #off');
         currentDropZone = dropZone;

@@ -12,11 +12,31 @@ body{
   }
   
   
-  #card{
-    width: 100px;
-    height: 100px;
-    background-color: #AFDA9F;
+  .card{
+    width: 5vw;
+    height: 5vw;
     border-radius: 5px;
     cursor: pointer;
-    position: fixed;
+    position: absolute;
+    background-color: azure;
+  }
+
+  #card1 {
+    background-color: #AFDA9F;
+  }
+
+  #card2 {
+    background-color: lightcoral;
+    bottom: 0;
+  }
+
+  #card3 {
+    background-color: aqua;
+    right: 0;
+  }
+
+  #card4 {
+    background-color: beige;
+    right: 0;
+    bottom: 0;
   }
